@@ -1,0 +1,23 @@
+{
+  "name": "battle-ax",
+  "version": "0.0.1",
+  "description": "vuex wrapper for type-safe",
+  "keywords": [ "typescript", "type safe", "vue", "vuex" ],
+  "main": "dist/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npm run build:tsc && npm run build:rollup",
+    "build:rollup": "rollup -c",
+    "build:tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joe-re",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.45.2",
+    "rollup-plugin-typescript2": "^0.4.6",
+    "typescript": "^2.4.2",
+    "vue": "^2.4.2",
+    "vuex": "^2.3.1"
+  }
+}

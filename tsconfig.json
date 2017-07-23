@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "declaration": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2016"]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
