@@ -3,7 +3,7 @@ import Vuex, { Store, Dispatch, Plugin, ModuleTree } from 'vuex';
 
 export interface ActionContext<S, R, A> {
   dispatch: Dispatch;
-  commit: <K extends keyof A>(params: { type: K, payload: A[K] }) => void,
+  commit: <K extends keyof A>(params: { type: K, payload?: A[K] }) => void,
   state: S;
   getters: any;
   rootState: R;
