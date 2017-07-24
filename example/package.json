@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "webpack",
+    "serve": "browser-sync start --server"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "ts-loader": "^2.3.1",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.3.0"
+  },
+  "dependencies": {
+    "vue-property-decorator": "^5.1.1"
+  }
+}
